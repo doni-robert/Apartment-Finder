@@ -20,6 +20,7 @@ const ApartmentDetail = () => {
 
   return (
     <div>
+      <h2>Show something else</h2>
       <h1>{apartment.title}</h1>
       <p>{apartment.description}</p>
       <p>{apartment.price}</p>

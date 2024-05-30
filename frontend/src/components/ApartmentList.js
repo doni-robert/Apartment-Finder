@@ -17,6 +17,7 @@ const ApartmentList = () => {
 
   return (
     <div>
+      <h2>Show something</h2>
       {apartments.map(apartment => (
         <div key={apartment.id}>
           <h2>{apartment.title}</h2>
